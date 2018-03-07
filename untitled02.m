@@ -12,8 +12,8 @@ end;
 R = real(s);
 Rm = min(R);
 delta = 0.05;
-tp = (1/abs(Rm))*(log(1/delta));
+tp = (1/abs(Rm))*(log(1/delta))
 
 Ym = max(Y);
 Yust = Y(1,length(Y));
-Sigma = ((Ym-Yust)/Yust)*100;
+Sigma = ((Ym-Yust)/Yust)*100
