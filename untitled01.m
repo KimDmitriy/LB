@@ -1,4 +1,4 @@
-f = fopen('C:\Users\kimdi\Desktop\ЛБ\input.txt');
+f = fopen('C:\Users\kimdi\Desktop\ЛБ\input.txt'); #change to your folder
 for i = 1:5
     str = '';
     C = textscan(f, '%s', 1);
